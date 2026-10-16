@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jiaxin Wang, JiangHan University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+C:\Users\¼ÐÐÄ±ý¸É\Desktop\02_ZhongDuan\USER\EXTI.uvprojx
+Project File Date:  09/13/2023
+
+<h2>Output:</h2>
+Build target 'EXTI'
+compiling exti.c...
+..\HARDWARE\EXTI\exti.c(69): warning:  #188-D: enumerated type mixed with another type
+          GPIO_WriteBit(GPIOB, GPIO_Pin_8, !currPB8);// TODO: ÇÐ»»LED1µÆµÄ×´Ì¬
+..\HARDWARE\EXTI\exti.c(82): warning:  #188-D: enumerated type mixed with another type
+          GPIO_WriteBit(GPIOE, GPIO_Pin_5, !currPE5); // ÇÐ»»LED1µÆµÄ×´Ì¬
+..\HARDWARE\EXTI\exti.c(97): warning:  #188-D: enumerated type mixed with another type
+          GPIO_WriteBit(GPIOB, GPIO_Pin_5, !currPB5);
+..\HARDWARE\EXTI\exti.c(98): warning:  #188-D: enumerated type mixed with another type
+          GPIO_WriteBit(GPIOE, GPIO_Pin_5, !currPE5);// TODO: Í¬Ê±ÇÐ»»LED0ºÍ1µÆµÄ×´Ì¬
+..\HARDWARE\EXTI\exti.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=3928 RO-data=336 RW-data=44 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\EXIT.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\¼ÐÐÄ±ý¸É\Desktop\02_ZhongDuan\USER\RTE
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
